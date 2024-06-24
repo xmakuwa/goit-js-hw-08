@@ -22,3 +22,13 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+a {
+  size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, rgb(224, 127, 16), orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
